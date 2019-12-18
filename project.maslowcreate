@@ -8,12 +8,12 @@
             "uniqueID": 571381,
             "ioValues": [
                 {
-                    "name": "box length",
-                    "ioValue": 660
-                },
-                {
                     "name": "box width",
                     "ioValue": 320
+                },
+                {
+                    "name": "box length",
+                    "ioValue": 660
                 },
                 {
                     "name": "box height",
@@ -25,7 +25,7 @@
                 },
                 {
                     "name": "wall thickness",
-                    "ioValue": 30
+                    "ioValue": 8
                 }
             ],
             "topLevel": true,
@@ -63,6 +63,19 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 327,
+                    "y": 79,
+                    "uniqueID": 937658,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
                     "atomType": "Input",
                     "name": "wall thickness",
                     "x": 15,
@@ -78,43 +91,47 @@
                     "uniqueID": 320662,
                     "ioValues": [
                         {
-                            "name": "x",
-                            "ioValue": 30
-                        },
-                        {
                             "name": "y",
                             "ioValue": 320
+                        },
+                        {
+                            "name": "x",
+                            "ioValue": 8
                         }
                     ],
                     "currentEquation": "y - (2x)"
                 },
                 {
-                    "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 445,
-                    "y": 98,
-                    "uniqueID": 937658,
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 500,
+                    "y": 188,
+                    "uniqueID": 859544,
                     "ioValues": [
                         {
-                            "name": "number",
-                            "ioValue": 8
+                            "name": "x length",
+                            "ioValue": 292
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 660
                         }
                     ]
                 },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 531,
-                    "y": 201,
-                    "uniqueID": 859544,
+                    "x": 773,
+                    "y": 109,
+                    "uniqueID": 141874,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 90
+                            "ioValue": 330
                         },
                         {
                             "name": "y length",
-                            "ioValue": 660
+                            "ioValue": 200
                         }
                     ]
                 },
@@ -127,7 +144,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 30
+                            "ioValue": 8
                         }
                     ]
                 },
@@ -159,8 +176,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1585,
-                    "y": 224,
+                    "x": 1872,
+                    "y": 232,
                     "ioValues": []
                 }
             ],
